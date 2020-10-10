@@ -1,6 +1,0 @@
-mandarin
-cei.json
-nui.json
-nui_1.json
-tts
-tts_test

@@ -1,6 +1,0 @@
-framework module IDRSSDK {
-  umbrella header "IDRSSDK.h"
-
-  export *
-  module * { export * }
-}
