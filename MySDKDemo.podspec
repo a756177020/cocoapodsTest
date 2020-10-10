@@ -39,8 +39,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "LICENSE" }
+  # spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "cocoapodsTest", "libMySDKDemo/**/*.{h}"
-  spec.exclude_files = "libMySDKDemo/Exclude"
+  spec.source_files  = "libMySDKDemo.{a}"
+  # spec.exclude_files = "libMySDKDemo/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
